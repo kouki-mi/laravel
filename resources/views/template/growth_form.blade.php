@@ -8,7 +8,7 @@
   @include('../template/header', ['mode' => "計画一覧"])
   </header>
   <main>
-    <div class="container">
+    <div class="container" id="app">
       <a href="/growths/index" class="nes-btn is-primary pull-right">戻る</a>
       @if($action === "edit")
         <a href="{{ route('growths.delete', ['id' => $current_growth->id]) }}" class="nes-btn is-error pull-right">削除</a>
@@ -51,5 +51,6 @@
         </div>
       </div>
   </main>
+  <script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>
