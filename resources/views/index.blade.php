@@ -10,7 +10,7 @@
 <main>
     <p class="intro_title">Level<br>up<br>checker</p>
     <div class = "pokemon">
-        <!-- <img src = "{{$pokemon->img_url}}"  width="500" height="500"> -->
+        <img src = "{{$pokemon->img_url}}"  width="500" height="500">
         <a href="login" class = "nes-btn intro_btn">start</a>
     </div>
 </main>
