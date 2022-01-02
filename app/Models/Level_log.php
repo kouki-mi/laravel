@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Level_log extends Model
 {
+    protected $table = 'level_logs';
     use HasFactory;
 }
