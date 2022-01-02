@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PokemonController extends Controller
 {
         //pokeAPIでポケモン情報の取得
-        public function getPokeData($poke_id){
+        public static function getPokeData($poke_id){
             //データベースにあるか確認
             $poke_data = Pokemon::where('poke_id',$poke_id)->first();
             if(!empty($poke_data)){
@@ -26,7 +26,7 @@ class PokemonController extends Controller
         }
 
         //ポケモンの情報をデータベースに格納
-        public function savePokeData($poke_data){
+        public static function savePokeData($poke_data){
             //ポケモンの情報をデータベースに保存する
             $pokemon = new Pokemon();
             $pokemon->poke_id = $poke_data['id'];
