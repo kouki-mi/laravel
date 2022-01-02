@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddExpPointGrowths extends Migration
+class CreateGrowthsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,14 @@ class AddExpPointGrowths extends Migration
      */
     public function up()
     {
-        Schema::table('growths', function (Blueprint $table) {
+        Schema::create('growths', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title,20');
+            $table->string('content');
+            $table->integer('u_id');
             $table->integer('exp_point');
+            $table->integer('p_id');
+            $table->timestamps();
         });
     }
 
@@ -25,8 +31,6 @@ class AddExpPointGrowths extends Migration
      */
     public function down()
     {
-        Schema::table('growths', function (Blueprint $table) {
-            $table->dropColumn('exp_point');
-        });
+        Schema::dropIfExists('growths');
     }
 }
