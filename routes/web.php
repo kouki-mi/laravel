@@ -41,6 +41,6 @@ Route::post('/exps/finish', 'App\Http\Controllers\ExpController@finish')->name('
 Auth::routes();
 
 // googleへのリダイレクト
-Route::get('/auth/google', 'App\Http\Controllers\googleLoginController@redirectToGoogle');
+Route::get('/auth/google', 'App\Http\Controllers\GoogleLoginController@redirectToGoogle');
 // 認証後の処理
 Route::get('/auth/google/callback', 'App\Http\Controllers\googleLoginController@handleGoogleCallback');
