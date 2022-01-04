@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.scss') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.scss') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
