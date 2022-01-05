@@ -4,9 +4,6 @@
   @include('../template/head',['title' => "level up checker"])
 </head>
 <body>
-<header>
-
-</header>
 <main>
     <p class="intro_title">Level<br>up<br>checker</p>
     <div class = "pokemon">
@@ -14,5 +11,8 @@
         <a href="login" class = "nes-btn intro_btn">start</a>
     </div>
 </main>
+<footer>
+   @include('../template/footer')
+</footer>
 </body>
 </html>

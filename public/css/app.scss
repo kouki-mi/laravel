@@ -509,7 +509,7 @@ mark,
   margin: 2rem 0 2.5rem 0;
 }
 
-.my-navbar, footer{
+.my-navbar{
   align-items: center;
   background:#555;
   display: flex;
@@ -594,6 +594,12 @@ a.my-navbar-item:hover {
 
 .nes-btn{
   margin-top: 20px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0; 
+  text-align:center;
 }
 
 code {

@@ -22,6 +22,9 @@
       </div>
     </div>
   </main>
+  <footer>
+    @include('../template/footer')
+  </footer>
 </body>
 <script src="{{mix('js/app.js')}}"></script>
 </html>

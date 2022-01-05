@@ -4,10 +4,10 @@
   @include('../template/head',['title' => "計画情報"])
 </head>
 <body>
-<header>
-@include('../template/header', ['mode' => "計画一覧"])
-</header>
-<main>
+  <header>
+  @include('../template/header', ['mode' => "計画一覧"])
+  </header>
+  <main>
     <div class="container">
       <div class = "text-center">
         <a href="create" class="nes-btn is-success">
@@ -25,7 +25,10 @@
         @endforeach
 
     </div>
-</main>
+  </main>
+  <footer>
+    @include('../template/footer')
+  </footer>
 <script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>

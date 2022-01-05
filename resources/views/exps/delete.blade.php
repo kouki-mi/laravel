@@ -22,6 +22,9 @@
         <div class = "box">
       </div>
   </main>
+  <footer>
+    @include('../template/footer')
+  </footer>
   <script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>
