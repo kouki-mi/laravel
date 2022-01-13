@@ -17,3 +17,5 @@
 - 画像の変化:完了したタスクが増えると、ポケモンの画像が変化する
 
 ## 工夫した点
+- apiを利用したポケモンの画像の取得 (/app/Http/Controllers/PokemonController.php)
+- googleアカウントを利用したソーシャルログイン機能 (/app/Http/Controllers/GoogleLoginController.php)
