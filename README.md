@@ -11,6 +11,11 @@
 - Laravel 8.77.1
 - MySQL
 
+## 使い方
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+アプリを開くと上記の画面が開くので、STARTを押す<br>
+aaa
+
 ## 主な機能
 - ログイン機能:メールアドレスとパスワードを設定する通常のログインとgoogleアカウントを利用したソーシャルログイン
 - toDOリスト:これからやる事を記録する機能
