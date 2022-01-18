@@ -14,7 +14,13 @@
 ## 使い方
 <img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
 アプリを開くと上記の画面が開くので、STARTを押す<br>
-aaa
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "600px">
 
 ## 主な機能
 - ログイン機能:メールアドレスとパスワードを設定する通常のログインとgoogleアカウントを利用したソーシャルログイン
