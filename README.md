@@ -1,65 +1,55 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Level up checker
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 概要
+目標に向けてやった事の量に応じて、ポケモンの画像が変化するアプリです。
+物事を継続する際にモチベーションを保てるような記録アプリが欲しいと思い、このアプリを作成しました。
 
-## About Laravel
+## 環境・使用言語等
+- windows 10
+- MAMP
+- php 7.4.1
+- Laravel 8.77.1
+- MySQL
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 使い方
+<img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "100%">
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- アプリを開くと上記の画面が開くので、"start"をクリックする
+- その後ログイン画面が開くので、googleアカウントを持っている方は"googleアカウントでログイン"をクリックする
+- 通常のログインをする場合は右上の"新規登録"からアカウントを作成し、作成したパスワードでログインする
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img src="https://user-images.githubusercontent.com/94271199/149875218-6265b081-57db-4463-827c-f55f607e7869.PNG" width = "100%">
 
-## Learning Laravel
+- ログインに成功すると上記の画面になるので、"計画を追加する"をクリックする
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<img src="https://user-images.githubusercontent.com/94271199/149875237-0b9d75e9-8160-471d-9b44-711f0cad834f.PNG" width = "100%">
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- その後、自分の目標に向けた計画を入力するフォームが開くので、タイトルと概要を入力する
+- "保存"をクリックする
 
-## Laravel Sponsors
+<img src="https://user-images.githubusercontent.com/94271199/149875244-367f4c95-8587-4293-bf36-2d0b15cef23d.PNG" width = "100%">
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- 保存に成功すると上記の画面になるので、"詳細"をクリックする
 
-### Premium Partners
+<img src="https://user-images.githubusercontent.com/94271199/149875250-ba570fdd-e3a0-40fd-a811-3f1c894c8ca2.PNG" width = "100%">
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- 上記の画面が、計画についての詳細画面となっている
+- todoメモを作成する際は、"記録を追加する"をクリックする
+- その後フォームが開くので、計画を設定した時と同様にタイトルと概要を記入し、"保存"をクリックする
 
-## Contributing
+<img src="https://user-images.githubusercontent.com/94271199/149875259-cfca54cb-2319-4981-b78a-40716ca2af49.PNG" width = "100%">
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- 保存に成功すると、詳細画面に入力した内容が表示される
+- メモした内容を完了した場合は"編集"をクリックすると、上記の画面が表示されるので、そこから"完了にする"をクリックする
 
-## Code of Conduct
+<img src="https://user-images.githubusercontent.com/94271199/149875265-a5380005-53a4-4df3-8985-e7a745e5eb24.PNG" width = "100%">
+- 完了した内容が増えるとレベルが上がっていき、上記のようにポケモンが進化する
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 主な機能
+- ログイン機能:メールアドレスとパスワードを設定する通常のログインとgoogleアカウントを利用したソーシャルログイン
+- toDOリスト:これからやる事を記録する機能
+- 画像の変化:完了したタスクが増えると、ポケモンの画像が変化する
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 工夫した点
+- apiを利用したポケモンの画像の取得 (/app/Http/Controllers/PokemonController.php)
+- googleアカウントを利用したソーシャルログイン機能 (/app/Http/Controllers/GoogleLoginController.php)
