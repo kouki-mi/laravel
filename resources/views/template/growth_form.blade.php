@@ -36,11 +36,7 @@
             </div>
             <div class="content-form">  
                 <label for="content">概要</label>
-                <textarea class="form-control" name="content" id="content">
-                  @if($action === "edit")
-                  {{$current_growth->content}}
-                  @endif
-                </textarea>
+                <textarea class="form-control" name="content" id="content">@if($action === "edit"){{$current_growth->content}}@endif</textarea>
             </div>
             <div class="text-center">
               <button type="submit" class="nes-btn is-success">保存</button>
