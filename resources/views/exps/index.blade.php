@@ -22,18 +22,17 @@
       <div class = "pokemon">
         <img src = "{{$pokemon->img_url}}"  width="500" height="500">
       </div>
-      @if($mode === "todo")
-        <div class = todo_nav>
-          <label class="todo_label">"これからやる事"を表示中</label>
-          <a href="{{ route('exps.index', ['id'=>$current_growth->id,'mode' => 'finish']) }}" class="nes-btn is-primary pull-right">切り替え</a>
-        </div>
-      @else
+      @if($mode === "finish")
         <div class = "finish_nav">
           <label class="finish_label">"完了した事"を表示中</label>
           <a href="{{ route('exps.index', ['id'=>$current_growth->id,'mode' => 'todo']) }}" class="nes-btn is-primary pull-right">切り替え</a>
         </div>
+      @else
+        <div class = todo_nav>
+          <label class="todo_label">"これからやる事"を表示中</label>
+          <a href="{{ route('exps.index', ['id'=>$current_growth->id,'mode' => 'finish']) }}" class="nes-btn is-primary pull-right">切り替え</a>
+        </div>
       @endif
-  
         @foreach($exps as $exp)
           <div class="box">
             <div class = "box_title">{{$exp->title}}</div>
