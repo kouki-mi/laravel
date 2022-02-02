@@ -27,7 +27,7 @@
 
 <img src="https://user-images.githubusercontent.com/94271199/152152191-5af33f9f-1163-4d6a-8de6-cf390d428734.PNG" width = "100%">
 
-- その後、自分の目標に向けた計画を入力するフォームが開くので、タイトルと概要を入力する
+- その後、自分の目標に向けた計画を入力するフォームが開くのでタイトルと概要を入力し、ポケモンを選択する
 - "保存"をクリックする
 
 <img src="https://user-images.githubusercontent.com/94271199/149875244-367f4c95-8587-4293-bf36-2d0b15cef23d.PNG" width = "100%">
