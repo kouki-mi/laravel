@@ -39,7 +39,8 @@ class GrowthController extends Controller
         $growth->content = $request->content;
 
         //ポケモン情報の設定
-        $i = rand(0,5);
+        $i = $request->p_id;
+        $i = intval($i);
         $poke_id = 1+($i*3);
         //APIで取得
         $poke_data = PokemonController::getPokeData($poke_id);

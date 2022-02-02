@@ -38,9 +38,19 @@
                 <label for="content">概要</label>
                 <textarea class="form-control" name="content" id="content">@if($action === "edit"){{$current_growth->content}}@endif</textarea>
             </div>
+            <div class = "p_id-form">
+              <label>好きなポケモンを選んでね！</label>
+              <select name = "p_id">
+                <option value = "0">フシギダネ</option>
+                <option value = "1">ヒトカゲ</option>
+                <option value = "2">ゼニガメ</option>
+                <option value = "3">キャタピー</option>
+                <option value = "4">ビードル</option>
+                <option value = "5">ポッポ</option>
+              </select>
+            </div>
             <div class="text-center">
               <button type="submit" class="nes-btn is-success">保存</button>
-              
             </div>
             
           </form>
