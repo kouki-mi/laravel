@@ -7,7 +7,7 @@
   <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- 本番用 -->
-  <!-- <link href="{{ secure_asset('css/app.scss') }}" rel="stylesheet"> -->
+  <link href="{{ secure_asset('css/app.scss') }}" rel="stylesheet">
   <!-- テスト用 -->
-  <link href="{{ asset('css/app.scss') }}" rel="stylesheet">
+  <!-- <link href="{{ asset('css/app.scss') }}" rel="stylesheet"> -->
 @show
