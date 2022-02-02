@@ -25,7 +25,7 @@
 
 - ログインに成功すると上記の画面になるので、"計画を追加する"をクリックする
 
-<img src="https://user-images.githubusercontent.com/94271199/149875237-0b9d75e9-8160-471d-9b44-711f0cad834f.PNG" width = "100%">
+<img src="https://user-images.githubusercontent.com/94271199/152152191-5af33f9f-1163-4d6a-8de6-cf390d428734.PNG" width = "100%">
 
 - その後、自分の目標に向けた計画を入力するフォームが開くので、タイトルと概要を入力する
 - "保存"をクリックする
