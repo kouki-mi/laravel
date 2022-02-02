@@ -11,6 +11,9 @@
 - Laravel 8.77.1
 - MySQL
 
+## 仕様の変更
+- 計画の入力フォームにてポケモンを選択できるようにしました (2022/2/2)
+
 ## 使い方
 <img src="https://user-images.githubusercontent.com/94271199/149874605-5b24385e-c059-462c-a91b-13faf3ceea0f.PNG" width = "100%">
 
